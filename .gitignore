@@ -45,3 +45,26 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# class
+*.class
+ 
+# Package Files
+*.jar
+*.war
+*.ear
+ 
+# ignore Maven generated target folders
+target
+ 
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+
+.idea
+*.iml
+.mvn/wrapper/maven-wrapper.properties
+mvnw.cmd
+mvnw

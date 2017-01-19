@@ -1,0 +1,30 @@
+server:
+    port: 8080
+
+logging:
+    level:
+        com.reedl: DEBUG
+
+spring:
+    datasource:
+        name: springdawn
+        url: jdbc:mysql://23.105.200.65:3306/springdawn
+        username: root
+        password: syzx2n1bcs
+        driver-class-name: com.mysql.jdbc.Driver
+    mvc:
+        view:
+            prefix: /templates/
+            suffix: .html
+        favicon:
+            enabled: false
+    template:
+        cache: false
+    thymeleaf:
+        cache: false
+        cache-period: 0
+
+mybatis:
+    configuration:
+        mapUnderscoreToCamelCase: true
+
